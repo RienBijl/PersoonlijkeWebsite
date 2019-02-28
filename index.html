@@ -7,6 +7,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="./assets/main.css">
         <link rel="stylesheet" href="./assets/emoji.css">
+        <link rel="stylesheet" href="./assets/aos.css">
         <link rel="icon" href="./assets/favicon.ico" type="image/ico">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +20,7 @@
 
             <!-- Root -->
 
-            <section id="start" class="hero is-white is-fullheight is-full-widescreen">
+            <section data-aos="fade-down" id="start" class="hero is-white is-fullheight is-full-widescreen">
 
 
                 <div class="hero-body">
@@ -55,7 +56,7 @@
                 </div>
             </section>
 
-            <section id="specialiteitvandechefkok" class="hero is-fullheight has-background-white-ter">
+            <section data-aos="fade-down" id="specialiteitvandechefkok" class="hero is-fullheight has-background-white-ter">
 
                 <div class="container"><br>
                     <div class="hero-body">
@@ -170,7 +171,7 @@
 
             <!-- Portfolio -->
 
-            <section id="portfolio" class="hero is-fullheight">
+            <section data-aos="fade-down" id="portfolio" class="hero is-fullheight">
 
                 <div class="container"><br>
                     <div class="hero-body">
@@ -235,7 +236,7 @@
                     <br><br>
 
                     <div class="has-text-centered">
-                        <a href="" @click.prevent="hireMeIsActive = true" class="button is-primary is-normal"><i class="em em-money_with_wings"></i>&nbsp;&nbsp; Help mij deze pagina op te vullen</a>
+                        <a href="" @click.prevent="hireMeIsActive = true" class="button is-primary is-normal"><i class="em em-money_with_wings"></i>&nbsp;&nbsp; Help mij deze pagina op te vullen - huur mij in</a>
                     </div>
 
 
@@ -307,6 +308,7 @@
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./assets/aos.js"></script>
         <script src="./assets/site.js"></script>
 
     </body>

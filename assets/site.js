@@ -11,3 +11,5 @@ new Vue({
     },
 
 });
+
+AOS.init();
